@@ -2,7 +2,7 @@
 
 % adapt to your spm12 directeory path
 if isempty(which('spm_spm'))
-    spm_path = '/Users/sc/POOL_IRM04/IRM04/TOOLBOXES/spm12';
+    spm_path = 'path_to_spm12';
     addpath(spm_path);
 end
 
@@ -16,7 +16,7 @@ spm_jobman('initcfg');
 %% define path
 
 % adapt to your own file structure, filenames, etc.
-BIDS_ds_rep = '/Users/sc/Desktop/BRAINAGE/dataset';
+BIDS_ds_rep = 'path_to_dataset';
 
 subject_name = 'test01';
 
